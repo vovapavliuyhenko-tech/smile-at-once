@@ -1,0 +1,20 @@
+# Smile-at-Once — сайт стоматологии
+
+Сайт стоматологии Smile-at-Once (Москва, ул. Станиславского, 11, корп. 1).
+Контакты, часы, цены, отзывы и фото — с карточки клиники на Яндекс Картах.
+
+- `index.html`, `styles.css`, `script.js` — главная страница
+- `opal3d.js`, `opal3d-shapes.js`, `opal3d-worker.js` — 3D-фигуры (three.js с CDN, построение в фоновом потоке)
+- `common.js` — шапка, мобильное меню, баннер cookie
+- `privacy.html`, `offer.html`, `cookies.html` — юридические документы (заполните реквизиты)
+- `img/` — фото клиники и запасные картинки фигур
+
+## Локальный запуск
+
+```bash
+node server.js
+```
+
+Сайт откроется на http://localhost:5501. Зависимостей нет.
+
+Разработчик: [t.me/vladimir_nvrs](https://t.me/vladimir_nvrs)
